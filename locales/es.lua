@@ -1,28 +1,28 @@
 local Translations = {
     error = {
-        not_in_range = 'Muy lejos de la municipalidad'
+        not_in_range = 'Muy lejos del Ayuntamiento'
     },
     success = {
         recived_license = 'Has recibido tu %{value} por $50'
     },
     info = {
-        new_job_app = 'Your application was sent to the boss of (%{job})',
+        new_job_app = 'Tu solicitud fue enviada al jefe de (%{job})',
         bilp_text = 'Servicios municipales',
         city_services_menu = '[E] - Servicios municipales',
         id_card = 'DNI',
         driver_license = 'Licencia de conducir',
-        weaponlicense = 'Licencia para portacion de armas',
-        new_job = 'Felicidades por tu nuevo trabajo! (%{job})'
+        weaponlicense = 'Licencia para portar de armas',
+        new_job = '¡Felicidades por tu nuevo trabajo! (%{job})'
     },
     email = {
         jobAppSender = "%{job}",
-        jobAppSub = "Thank you for applying to %(job).",
-        jobAppMsg = "Hello %{gender} %{lastname}<br /><br />%{job} has received your application.<br /><br />The boss is looking into your request and will reach out to you for an interview at their earliest convienance.<br /><br />Once again, thank you for your application.",
+        jobAppSub = "Gracias por aplicar a %{job}.",
+        jobAppMsg = "Hola %{gender} %{lastname}<br /><br />%{job} ha recibido tu solicitud.<br /><br />El jefe está revisando tu petición y se pondrá en contacto contigo para una entrevista a la mayor brevedad posible.<br /><br />Una vez más, gracias por tu solicitud.",
         mr = 'Sr',
         mrs = 'Sra',
-        sender = 'Municipalidad',
+        sender = 'Ayuntamiento',
         subject = 'Solicitud de clases de conducir',
-        message = 'Hola %{gender} %{lastname}<br /><br />Acabamos de recibir un mensaje de que deseas clases de conducir<br />Si deseas enseñar, contactanos:<br />Nombre: <strong>%{firstname} %{lastname}</strong><br />Numero de teléfono: <strong>%{phone}</strong><br/><br/>Saludos,<br />Ayuntamiento Los Santos'
+        message = 'Hola %{gender} %{lastname}<br /><br />Acabamos de recibir un mensaje de que deseas clases de conducir<br />Si deseas enseñar, contáctanos:<br />Nombre: <strong>%{firstname} %{lastname}</strong><br />Número de teléfono: <strong>%{phone}</strong><br/><br/>Saludos,<br />Ayuntamiento Los Santos'
     }
 }
 
